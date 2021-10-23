@@ -1,0 +1,44 @@
+{
+    "gps":
+    {
+        "run": true,
+        "bin": "gpxlogger",
+        "args": "",
+        "data_dir_option": "-f"
+    },
+    "roamingd": 
+    {
+        "run": true,
+        "bin": "bin/roamingd",
+        "args": "wlp4s0",
+        "data_dir_option": "-f"
+    },
+    "wpa_supplicant":
+    {
+        "run": true,
+        "bin": "bin/wpa_supplicant",
+        "args": "-Dnl80211 -i wlp4s0 -c etc/wpa_freewifi.conf -dt",
+        "data_dir_option": "-f"
+    },
+    "scanner":
+    {
+        "run": false,
+        "bin": "bin/scanner",
+        "args": "\"FreeWifi_secure\" \"SFR WiFi Mobile\" -i wlp3s0 -f \"flush passive\"",
+        "data_dir_option": "-d"
+    },
+    "tester":
+    {
+        "run": true,
+        "bin": "bin/tester_initiator",
+        "args": "-c etc/tester_initiator.json -b bin",
+        "data_dir_option": "-d"
+    },
+    "link_monitor":
+    {
+        "run": true,
+        "bin": "bin/link_monitor.sh",
+        "args": "wlp4s0",
+        "data_dir_option": "-f"
+    }
+}

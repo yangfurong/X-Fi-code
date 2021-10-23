@@ -1,0 +1,11 @@
+[Unit]
+Description=TCP Performance Test Server of CarFi
+After=rc.local.service
+
+[Service]
+Type=simple
+ExecStart=/home/ubuntu/carfi/CarFiMeasurement/server_tools/tester/tcp_server_daemon
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target

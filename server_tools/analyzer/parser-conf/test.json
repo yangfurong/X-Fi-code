@@ -1,0 +1,24 @@
+{
+    "Paris": {
+        "interfaces": ["wlp4s0"],
+        "scan_ssid": "FreeWifi_secure",
+        "db_info": {
+            "user": "root",
+            "passwd": "upmc75005",
+            "host": "127.0.0.1",
+            "port": 3306,
+            "name": "test_paris"
+        }
+    },
+    "Macau":{
+        "interfaces": ["wlp3s0"],
+        "scan_ssid": "CTM-WIFI-AUTO",
+        "db_info": {
+            "user": "root",
+            "passwd": "upmc75005",
+            "host": "127.0.0.1",
+            "port": 3306,
+            "name": "test_macau"
+        }
+    }
+}

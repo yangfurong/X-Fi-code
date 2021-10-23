@@ -1,0 +1,1 @@
+libnl-3-dev libnl-genl-3-dev qt5-default qt5-qmake pkg-config gpsd gpsd-clients libpcsclite-dev libssl-dev libreadline-dev libncurses-dev moreutils pcscd pcsc-tools libusb-dev libusb-1.0.0-dev bwm-ng

@@ -1,0 +1,46 @@
+{
+    "Paris": {
+        "interfaces": ["wlp4s0"],
+        "scan_ssid": "FreeWifi_secure",
+        "db_info": {
+            "user": "root",
+            "passwd": "upmc75005",
+            "host": "127.0.0.1",
+            "port": 3306,
+            "name": "carfi_pktloss_paris"
+        }
+    },
+    "Bologna": {
+        "interfaces": ["wlp4s0"],
+        "scan_ssid": "NONE",
+        "db_info": {
+            "user": "root",
+            "passwd": "upmc75005",
+            "host": "127.0.0.1",
+            "port": 3306,
+            "name": "carfi_pktloss_bologna"
+        }
+    },
+    "Macau":{
+        "interfaces": ["wlp3s0"],
+        "scan_ssid": "CTM-WIFI-AUTO",
+        "db_info": {
+            "user": "root",
+            "passwd": "upmc75005",
+            "host": "127.0.0.1",
+            "port": 3306,
+            "name": "carfi_pktloss_macau"
+        }
+    },
+    "LA":{
+        "interfaces": ["wlp4s0"],
+        "scan_ssid": "TWCWiFi-Passpoint",
+        "db_info": {
+            "user": "root",
+            "passwd": "upmc75005",
+            "host": "127.0.0.1",
+            "port": 3306,
+            "name": "carfi_pktloss_la"
+        }
+    }
+}

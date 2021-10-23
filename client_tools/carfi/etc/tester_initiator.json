@@ -1,0 +1,12 @@
+{
+    "ifaces":["wlp4s0"],
+    "tcp_args":
+    {
+        "bin_name": "tcp_client",
+        "servers":["132.227.122.22"],
+        "ul_port_base":5000,
+        "dl_port_base":5100,
+        "cc_types": ["cubic", "bbr"],
+        "concurrency": [1, 2, 4, 8, 16]
+    }
+}

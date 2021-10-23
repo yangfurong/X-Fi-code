@@ -1,0 +1,11 @@
+#!/bin/bash
+
+ROOT_PATH="/home/ubuntu/carfi/CarFiMeasurement/server_tools/data_uploader"
+UPLOADER_SERVER="$ROOT_PATH/uploader_server.py"
+UPLOADER_PORT=9999
+UPLOADER_RECV_DIR=/opt/carfi/recv_dir
+UPLOADER_TAR_DIR=/opt/carfi/tar_dir
+#UPLOADER_RECV_DIR=/opt/test/recv_dir
+#UPLOADER_TAR_DIR=/opt/test/tmp_dir
+
+$UPLOADER_SERVER -p $UPLOADER_PORT --recv_dir $UPLOADER_RECV_DIR --tar_dir $UPLOADER_TAR_DIR

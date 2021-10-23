@@ -1,0 +1,11 @@
+[Unit]
+Description=Data Uploader Server of CarFi
+After=rc.local.service
+
+[Service]
+Type=simple
+ExecStart=/home/ubuntu/carfi/CarFiMeasurement/server_tools/data_uploader/uploader_server_daemon
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target

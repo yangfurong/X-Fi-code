@@ -1,0 +1,24 @@
+#!/bin/bash
+
+scanner=${0%/*}"/__do_scan"
+filter=${0%/*}"/__ssid_filter"
+
+log_dir=""
+iface=""
+ssids=()
+flags=""
+
+while [ "$1" != "" ] ;
+do
+    case $1 in
+        -i) iface=$2 ; shift 2 ;;
+        -d) log_dir=$2; shift 2 ;;
+        -f) flags=$2; shift 2 ;;
+        *) ssids=(${ssids[@]} "$1"); shift 1 ;;
+    esac
+done
+
+ifconfig $iface up
+mkdir $log_dir
+
+$scanner $iface $flags | $filter "${ssids[@]}" -d $log_dir

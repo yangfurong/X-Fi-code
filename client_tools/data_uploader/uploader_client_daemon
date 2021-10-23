@@ -1,0 +1,12 @@
+#!/bin/bash
+
+ROOT_PATH="/home/ubuntu/carfi/CarFiMeasurement/client_tools/data_uploader"
+UPLOADER_CLIENT=$ROOT_PATH/uploader_client.py
+SERVER_IP="132.227.122.22"
+SERVER_PORT=9999
+INTERFACE="wlxc83a35d1021c"
+TAR_PATH="/opt/carfi/tar"
+#TAR_PATH="./tar"
+DURATION=120 #secs
+
+$UPLOADER_CLIENT -i $INTERFACE -s $SERVER_IP -p $SERVER_PORT --tar_dir $TAR_PATH --scan_period $DURATION

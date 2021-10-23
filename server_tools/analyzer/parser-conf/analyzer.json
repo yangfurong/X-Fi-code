@@ -1,0 +1,178 @@
+{
+    "Paris": {
+        "interfaces": ["wlp4s0"],
+        "scan_ssid": "FreeWifi_secure",
+        "db_info": {
+            "user": "root",
+            "passwd": "upmc75005",
+            "host": "127.0.0.1",
+            "port": 3306,
+            "name": "carfi_paris_fails"
+        }
+    },
+    "Bologna": {
+        "interfaces": ["wlp4s0"],
+        "scan_ssid": "NONE",
+        "db_info": {
+            "user": "root",
+            "passwd": "upmc75005",
+            "host": "127.0.0.1",
+            "port": 3306,
+            "name": "carfi_bologna_fails"
+        }
+    },
+    "Macau":{
+        "interfaces": ["wlp3s0"],
+        "scan_ssid": "CTM-WIFI-AUTO",
+        "db_info": {
+            "user": "root",
+            "passwd": "upmc75005",
+            "host": "127.0.0.1",
+            "port": 3306,
+            "name": "carfi_macau_fails"
+        }
+    },
+    "OldLA":{
+        "interfaces": ["wlp4s0"],
+        "scan_ssid": "TWCWiFi-Passpoint",
+        "db_info": {
+            "user": "root",
+            "passwd": "upmc75005",
+            "host": "127.0.0.1",
+            "port": 3306,
+            "name": "carfi_oldla_fails"
+        }
+    },
+    "LA":{
+        "interfaces": ["wlp4s0"],
+        "scan_ssid": "TWCWiFi-Passpoint",
+        "db_info": {
+            "user": "root",
+            "passwd": "upmc75005",
+            "host": "127.0.0.1",
+            "port": 3306,
+            "name": "carfi_la_fails"
+        }
+    },
+    "OldParis":{
+        "interfaces": ["wlp3s0"],
+        "scan_ssid": "FreeWifi_secure",
+        "db_info": {
+            "user": "root",
+            "passwd": "upmc75005",
+            "host": "127.0.0.1",
+            "port": 3306,
+            "name": "carfi_oldparis"
+        }
+    },
+    "PureCarfiParis": {
+        "interfaces": ["wlp4s0"],
+        "scan_ssid": "FreeWifi_secure",
+        "db_info": {
+            "user": "root",
+            "passwd": "upmc75005",
+            "host": "127.0.0.1",
+            "port": 3306,
+            "name": "carfi_purecarfiparis"
+        }
+    },
+    "OldMacau": {
+        "interfaces": ["wlp3s0"],
+        "scan_ssid": "CTM-WIFI-AUTO",
+        "db_info": {
+            "user": "root",
+            "passwd": "upmc75005",
+            "host": "127.0.0.1",
+            "port": 3306,
+            "name": "carfi_oldmacau"
+        }
+    },
+    "RandParis": {
+        "interfaces": ["wlp4s0"],
+        "scan_ssid": "FreeWifi_secure",
+        "db_info": {
+            "user": "root",
+            "passwd": "upmc75005",
+            "host": "127.0.0.1",
+            "port": 3306,
+            "name": "carfi_rand_paris"
+        }
+    },
+    "RandParis2": {
+        "interfaces": ["wlp3s0"],
+        "scan_ssid": "FreeWifi_secure",
+        "db_info": {
+            "user": "root",
+            "passwd": "upmc75005",
+            "host": "127.0.0.1",
+            "port": 3306,
+            "name": "carfi_rand_paris2"
+        }
+    },
+    "RandParis3": {
+        "interfaces": ["wlp2s0"],
+        "scan_ssid": "FreeWifi_secure",
+        "db_info": {
+            "user": "root",
+            "passwd": "upmc75005",
+            "host": "127.0.0.1",
+            "port": 3306,
+            "name": "carfi_rand_paris3"
+        }
+    },
+    "CmpSSParis": {
+        "interfaces": ["wlp4s0"],
+        "scan_ssid": "FreeWifi_secure",
+        "db_info": {
+            "user": "root",
+            "passwd": "upmc75005",
+            "host": "127.0.0.1",
+            "port": 3306,
+            "name": "carfi_cmpss_paris"
+        }
+    },
+    "CmpRandParis2": {
+        "interfaces": ["wlp3s0"],
+        "scan_ssid": "FreeWifi_secure",
+        "db_info": {
+            "user": "root",
+            "passwd": "upmc75005",
+            "host": "127.0.0.1",
+            "port": 3306,
+            "name": "carfi_cmprand_paris2"
+        }
+    },
+    "HomeRandParis": {
+        "interfaces": ["wlp4s0"],
+        "scan_ssid": "FreeWifi_secure",
+        "db_info": {
+            "user": "root",
+            "passwd": "upmc75005",
+            "host": "127.0.0.1",
+            "port": 3306,
+            "name": "carfi_homerand_paris"
+        }
+    },
+    "Macau2Macau":{
+        "interfaces": ["wlp3s0"],
+        "scan_ssid": "CTM-WIFI-AUTO",
+        "db_info": {
+            "user": "root",
+            "passwd": "upmc75005",
+            "host": "127.0.0.1",
+            "port": 3306,
+            "name": "carfi_macau2macau_fails"
+        }
+    },
+    "HomeRand2Paris": {
+        "interfaces": ["wlp4s0"],
+        "scan_ssid": "FreeWifi_secure",
+        "db_info": {
+            "user": "root",
+            "passwd": "upmc75005",
+            "host": "127.0.0.1",
+            "port": 3306,
+            "name": "carfi_homerand2_paris"
+        }
+    }
+}

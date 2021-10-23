@@ -1,0 +1,10 @@
+#!/bin/bash
+
+RT_PATH="/home/ubuntu/carfi/CarFiMeasurement/server_tools/tester"
+TCPSERVER=$RT_PATH/tcp_server
+UPLOAD_PORT_BASE=5000
+DOWNLOAD_PORT_BASE=5100
+CC_LIST="cubic,bbr"
+INTERFACE=ens3
+
+$TCPSERVER -u $UPLOAD_PORT_BASE -d $DOWNLOAD_PORT_BASE -c "$CC_LIST" -i $INTERFACE

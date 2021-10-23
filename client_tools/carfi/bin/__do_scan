@@ -1,0 +1,8 @@
+#!/bin/bash
+
+apscanner=${0%/*}"/apscanner.S"
+
+while true; do
+    $apscanner $@ | ts '%FT%H:%M:%.S%z ucla-car-1 experiment[01]:'
+    sleep 2
+done

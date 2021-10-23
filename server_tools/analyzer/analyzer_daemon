@@ -1,0 +1,15 @@
+#!/bin/bash
+
+ROOT_PATH="/home/ubuntu/carfi/CarFiMeasurement/server_tools/analyzer"
+PARSER="$ROOT_PATH/parser.py"
+TAR_DIR=/opt/carfi/tar_LA
+#TAR_DIR=/opt/carfi/tar_dir
+ARCHIVE_DIR=/opt/carfi/archive_dir
+CONFIG="$ROOT_PATH/parser-conf/pktloss.json"
+#TAR_DIR=/opt/test/tar_dir
+#ARCHIVE_DIR=/opt/test/archive_dir
+#CONFIG="$ROOT_PATH/parser-conf/test.json"
+CPUS=15
+PARSING_GAP=3600 #in secs
+
+$PARSER -c $CONFIG --tar_dir $TAR_DIR --archive_dir $ARCHIVE_DIR --cpu $CPUS --periodical $PARSING_GAP

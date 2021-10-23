@@ -1,0 +1,15 @@
+[Unit]
+Description=Data Collector of CarFi
+After=rc.local.service carfi-uploader-client.service
+
+[Service]
+Type=simple
+ExecStartPre=/bin/sleep 80
+ExecStart=/home/ubuntu/carfi/CarFiMeasurement/client_tools/collector/collector_daemon
+KillMode=process
+KillSignal=SIGTERM
+TimeoutStopSec=300
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
