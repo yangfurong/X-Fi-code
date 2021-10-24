@@ -1,6 +1,6 @@
 # X-Fi & X-Perf  
 
-The toolset is designed to measure TCP performance over vehicular WiFi conenctivity. It includes client-side tools and server-side tools. 
+The toolset is designed to measure TCP performance over Vehicle-to-Internet (V2I) WiFi conenctivity. It includes client-side tools and server-side tools. 
 
 The client-side tools are responsible for automatically launching WiFi software stack, TCP measurement application, and collecting data which include GPS data, WiFi association logs, DHCP logs, TCP application logs, and pcap files.
 The server-side tools are responsible for acting as the server for TCP performance measurement and analyzing data collected from the client side.
