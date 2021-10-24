@@ -31,7 +31,9 @@ make
 sudo make install
 ```
 4. GPS settings
+
 **WARNING: This step must be excuted manually. And creating backup for original files is highly recommended.**
+
 `gpsdctl@.service` has to be called after the GPS hardware is ready. So, we added a small sleeping period before it. Please use `./client_tools/system-conf/gpsdctl@.service` to replace the original one -- `/lib/systemd/system/gpsdctl@.service`. 
 
 ##### Server tools (Uploader server, TCP server for performance measurement)
